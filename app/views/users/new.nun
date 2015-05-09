@@ -1,0 +1,10 @@
+{% extends "layouts/main.nun" %}
+
+{% block main %}
+  <ol class="breadcrumb">
+    <li><a href="/users">Users</a></li>
+    <li><em>New</em></li>
+  </ol>
+
+  {% include "users/_form.nun" %}
+{% endblock %}
