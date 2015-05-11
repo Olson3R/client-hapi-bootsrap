@@ -30,12 +30,12 @@ angular.module('myApp.users', [
     var usersNewCtrl = this;
 
     usersNewCtrl.user = {
-      name: "Taco"
+      name: null
     }
 
     usersNewCtrl.submit = function() {
       UserModel.post(usersNewCtrl.user).then(function(user) {
-        $state.go('users.index')
+        $state.go('usersIndex')
       })
     }
   })
@@ -51,7 +51,8 @@ angular.module('myApp.users', [
   .directive('userForm', function() {
     return {
       scope: {
-        user: '='
+        user: '=',
+        submit: '&'
       },
       restrict: 'A',
       templateUrl: 'ng/users/_form.tmpl.html'
