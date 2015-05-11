@@ -25,7 +25,7 @@ handlers.create = {
   handler: function(req, res) {
     RestAPI.post('users', req.payload)
       .then(function(user) {
-        res.redirect('/users')
+        res.redirect('/users_node')
       })
       .catch(function(err) {
         res("An error has ocurred: " + err)

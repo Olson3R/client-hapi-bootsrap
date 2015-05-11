@@ -1,0 +1,5 @@
+{% extends "layouts/main.nun" %}
+
+{% block main %}
+  <div ui-view></div>
+{% endblock %}

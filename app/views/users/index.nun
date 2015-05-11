@@ -2,11 +2,11 @@
 
 {% block main %}
   <ol class="breadcrumb">
-    <li>Users</li>
+    <li>Node Users</li>
   </ol>
 
   <div class="btn-group">
-    <a href="/users/new" class="btn btn-default">New</a>
+    <a href="/users_node/new" class="btn btn-default">New</a>
   </div>
 
   {% if users.length > 0 %}

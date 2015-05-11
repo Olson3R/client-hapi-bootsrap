@@ -12,7 +12,8 @@
 
     <div class="navbar-header collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li><a href="/users">Users</a></li>
+        <li><a href="/users_node">Node Users</a></li>
+        <li><a href="/angular#/users">Angular Users</a></li>
       </ul>
     </div>
   </div>
