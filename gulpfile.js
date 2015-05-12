@@ -50,7 +50,7 @@ gulp.task('scripts', function() {
       .pipe(gulp.dest('public/js'))
 })
 
-gulp.task('setup', ['dependencies', 'css', 'scripts'])
+gulp.task('setup', ['dependencies', 'css', 'scripts', 'templates'])
 
 gulp.task('templates', function() {
   return gulp.src(templatesGlob)
