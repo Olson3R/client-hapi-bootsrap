@@ -26,6 +26,7 @@
     "bluebird": "^2.9.25",
     "good": "^6.1.2",
     "good-console": "^5.0.0",
+    "gulp": "^3.8.11",
     "gulp-cached": "^1.1.0",
     "gulp-concat": "^2.5.2",
     "gulp-footer": "^1.0.5",
