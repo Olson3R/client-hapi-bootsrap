@@ -11,6 +11,6 @@ The primary technologies used are [NodeJS](https://nodejs.org/), [HapiJS](http:/
 3. Publish static assets `gulp setup`
 
 # Start The Server
-1. Start the server `node index.js` or `nodemon index.js --watch ./ --ignore public --ignore assets -e js,json` (if you have nodemon installed)
+1. Start the server `node index.js` or `nodemon index.js --watch ./ --ignore public --ignore assets -e js,json,nun` (if you have nodemon installed)
  - The server will start on port 4000 by default
 2. If you are developing, you may also publish changes to static assets with `gulp watch`
